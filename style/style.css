@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: black;
+}
+
+.header-main {
+    height: 4rem;
+    width: 100vw;
+    background: #222222;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-main .nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-left {
+    display: flex;
+    width: calc(20%-.4rem);
+    margin-left: .2rem;
+}
+
+.col-center {
+    flex-grow: 1;
+}
+
+.col-right {
+    width: calc(20%-.4rem);
+    margin-right: .2rem;
+}
+
+.header-main ul {
+    list-style: none;
+}
+
+.header-main li {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.header-main .header-commands {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.fas {
+    color: white;
+}
+
+.header-main i {
+    font-size: 1.5rem;
+}
+
+.header-main a {
+    padding: .5rem 1rem;
+}
+
+.header-main a:hover {
+    background: #3a3a3a;
+    border-radius: 10px;
+}
+
+.header-main .fa-angle-up {
+    font-size: 1rem;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.fa-share-square {
+    color: #4BC800;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    border: solid 1px transparent;
+    border-radius: 7px;
+}
+
+.header-main .col-right .button {
+    background: #DE2728;
+    padding: .2rem .7rem;
+}
+.header-main .col-right .button:hover {
+    background: rgb(218, 111, 111);
+    border-radius: 7px;
+}
+
