@@ -23,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 10;
 }
 
 .header-main .nav-list {
@@ -54,6 +55,10 @@ body {
     flex-direction: column;
     display: flex;
     align-items: center;
+}
+
+.header-main li div {
+    color: rgb(184, 182, 182);
 }
 
 .header-main .header-commands {
@@ -111,9 +116,10 @@ body {
 /* Body - Section Top-Right */
 
 .top-right {
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 0;
+    z-index: 9;
 }
 
 .top-right .button {
@@ -124,4 +130,27 @@ body {
 
 .top-right .button:hover {
     background: #3a3a3a;
+}
+
+
+/* Main */
+
+.main-flexbox {
+    margin: 4rem auto 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+ main .image {
+    position: relative;
+}
+
+main .image .overlay {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background: #22222258;
+    padding: .2rem .5rem;
 }
