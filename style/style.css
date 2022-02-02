@@ -136,6 +136,7 @@ body {
 /* Main */
 
 .main-flexbox {
+    height: calc(100vh - 9rem);
     margin: 4rem auto 5rem auto;
     display: flex;
     flex-wrap: wrap;
