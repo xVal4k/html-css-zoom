@@ -123,6 +123,7 @@ body {
 }
 
 .top-right .button {
+    line-height: 1.2rem;
     background: #222222;
     padding: .3rem .3rem;
     margin: 0 .2rem;
@@ -136,8 +137,9 @@ body {
 /* Main */
 
 .main-flexbox {
-    height: calc(100vh - 9rem);
-    margin: 4rem auto 5rem auto;
+    height: calc(100vh - 6.2rem);
+    width: 100vw;
+    margin: 2.2rem auto 4rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
