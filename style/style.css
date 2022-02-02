@@ -148,6 +148,7 @@ body {
 
  main .image {
     position: relative;
+    margin: 0 2px;
 }
 
 main .image .overlay {
