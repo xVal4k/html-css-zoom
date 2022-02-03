@@ -34,7 +34,7 @@ body {
 
 .col-left {
     display: flex;
-    width: calc(20%-.4rem);
+    width: calc(20% - 0.4rem);
     margin-left: .2rem;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .col-right {
-    width: calc(20%-.4rem);
+    width: calc(20% - 0.4rem);
     margin-right: .2rem;
 }
 
@@ -106,6 +106,9 @@ body {
 .header-main .col-right .button {
     background: #DE2728;
     padding: .2rem .7rem;
+    position: absolute;
+    bottom: 1.2em;
+    right: .2em;
 }
 .header-main .col-right .button:hover {
     background: rgb(218, 111, 111);
@@ -137,24 +140,25 @@ body {
 /* Main */
 
 .main-flexbox {
-    height: calc(100vh - 6.2rem);
+    height: calc(100vh - 7rem);
     width: 100vw;
-    margin: 2.2rem auto 4rem auto;
+    margin: 2.5rem auto 4.5rem auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     overflow: auto;
 }
 
+
  main .image {
     position: relative;
-    margin: 0 2px;
+    margin: .2em .3em;
 }
 
 main .image .overlay {
     position: absolute;
-    bottom: 5px;
-    left: 5px;
+    bottom: 15px;
+    left: 0;
     background: #22222258;
     padding: .2rem .5rem;
 }
